@@ -173,6 +173,19 @@
 				"description": "This is a DELETE request, and it is used to delete data that was previously created via a POST request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful DELETE request typically returns a `200 OK`, `202 Accepted`, or `204 No Content` response code."
 			},
 			"response": []
+		},
+		{
+			"name": "Temp Request",
+			"id": "5389cff3-0f7c-4334-b2d3-d37405ad2526",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.google.com"
+			},
+			"response": []
 		}
 	],
 	"event": [
