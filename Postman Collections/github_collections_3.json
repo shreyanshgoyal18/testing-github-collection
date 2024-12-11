@@ -207,14 +207,15 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "google",
 			"id": "fb49a735-49ab-41b8-a171-e686a50a1de4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "www.example.com"
 			},
 			"response": []
 		}
