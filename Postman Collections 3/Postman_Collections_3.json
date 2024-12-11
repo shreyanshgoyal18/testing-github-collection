@@ -189,7 +189,20 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "www.google.com/jdj"
+				"url": "www.google.com/jdjjkl"
+			},
+			"response": []
+		},
+		{
+			"name": "testing",
+			"id": "16cb75b6-c969-431f-84b3-83860c7b1af8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.example.com/jjklkmkhjeklwjjhkjkjjdffkfkll"
 			},
 			"response": []
 		}
