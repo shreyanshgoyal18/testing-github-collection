@@ -205,6 +205,18 @@
 				"url": "www.example.com/jjklkmkhjeklwjjhkjkjjdffkfkllkdk"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "fb49a735-49ab-41b8-a171-e686a50a1de4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
