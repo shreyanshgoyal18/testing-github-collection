@@ -215,7 +215,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "www.example.com"
+				"url": "www.example.com/ghj"
 			},
 			"response": []
 		}
