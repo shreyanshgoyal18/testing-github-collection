@@ -86,13 +86,15 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "b1d374d7-cc97-45c9-8e93-a050504309d1",
 						"exec": [
 							"pm.test(\"Successful PUT request\", function () {",
 							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 204]);",
 							"});",
 							""
-						]
+						],
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -110,7 +112,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/info?id=1",
+					"raw": "{{base_url}}/info?id=1m,nmn",
 					"host": [
 						"{{base_url}}"
 					],
@@ -120,7 +122,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "1"
+							"value": "1m,nmn"
 						}
 					]
 				},
