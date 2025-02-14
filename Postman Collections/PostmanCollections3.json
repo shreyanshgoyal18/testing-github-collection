@@ -292,6 +292,19 @@
 				"url": "www.google.com/jkkkklljjhjg,,l"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "52ce21c2-d87e-4c4d-843d-1fc2f7861546",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.google.com/abhishek"
+			},
+			"response": []
 		}
 	],
 	"event": [
