@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "1172606-9e684e4a-9ee1-45ed-897d-61b90e88db66",
+		"name": "Integrations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://integrations.postman-beta.tech/integration-instances",
+			"id": "1172606-9ee506b6-d45e-48ad-8720-54883c7b6229",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "62b662b41d81fc97c282ba6f807c20fb55d123a0dcd355637324964648d9692d2a4d207ccc4b99bf5a29a7c0bf809becde0d53de7642b3291c4b6510a481444d"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":  \"Integrations-testing-monitor-test-3\",\n    \"class\": \"monitor_run_slack\",\n    \"inputs\": [\n        {\n            \"key\": \"options\",\n            \"value\": \"all_runs\"\n        },\n        {\n            \"key\": \"channel\",\n            \"value\": \"test-monitoring-notifications-beta\"\n        },\n        {\n            \"key\": \"channelId\",\n            \"value\": \"C07TFHYHCF2\"\n        },\n        {\n            \"key\": \"auth\",\n            \"value\": {\n                \"tokenId\": \"564cfbd2-5bf3-4b15-a950-bcc9c250ca5b\"\n            }\n        },\n        {\n            \"key\": \"monitor\",\n            \"value\": \"1ef182de-745c-4900-98f5-b2d388508822\"\n        }\n    ]\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://integrations.postman-beta.tech/integration-instances",
+					"protocol": "https",
+					"host": [
+						"integrations",
+						"postman-beta",
+						"tech"
+					],
+					"path": [
+						"integration-instances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ghj",
+			"id": "1172606-b2a61407-81d7-4bde-8f77-a7af47b68299",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.google.com",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
