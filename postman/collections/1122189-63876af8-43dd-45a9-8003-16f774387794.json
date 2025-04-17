@@ -28,13 +28,31 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": ""
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "New Request",
 			"id": "1122189-3760776e-ff0e-42c9-ae25-bb88575693ae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "1122189-0c082242-dedd-4458-961a-58db2fa88048",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
