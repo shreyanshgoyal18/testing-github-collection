@@ -17,6 +17,18 @@
 				"url": "mlm"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "04bc0894-9934-42d8-a35e-8437f8a80c03",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
