@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "c7971193-b603-40b5-bf56-fe3ba99231f4",
+		"name": "INTEGRATION PROCESSOR TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "0f79a390-361e-4ac0-9d5e-a5de15208d96",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
