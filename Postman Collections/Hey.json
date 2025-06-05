@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "c7971193-b603-40b5-bf56-fe3ba99231f4",
-		"name": "INTEGRATION PROCESSOR TEST",
+		"name": "INTEGRATION PROCESSOR TESTklmevlfmlll;l,;e",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "mlm"
+				"url": "mlm;mlm"
 			},
 			"response": []
 		},
