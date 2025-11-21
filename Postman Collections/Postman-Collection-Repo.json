@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "bb929e70-9587-43a0-aecc-b64efb9cca11",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test schema reprot",
+			"id": "645be32a-da96-4826-8791-004e6f354c32",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "fff2ab637d169894aca88990f6834a3c269b61dede003d3bd45a49251e5daa64014a9b927ee4c1cbc9f050239b67c0cb0f9c7dc22a527613fea74a5819c8c84b"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/v2/reports/stored/teamSchemasType?version=v0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"v2",
+						"reports",
+						"stored",
+						"teamSchemasType"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "v0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test schema reprot Copy",
+			"id": "9acd3eeb-fa63-4a20-9854-58a28e49a64f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "07436967659eb7dc78b99218f4e1105f00bd40e1179c561b122210ac71c741d5612966c70422fc5e2c59cde52de4d48b6ab4b1f3fd9b23634c72a5833e8799c1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/v2/reports/stored/teamSchemasType?version=v0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"v2",
+						"reports",
+						"stored",
+						"teamSchemasType"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "v0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "8f5f1462-2a50-4f85-be82-058b09f3b809",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}/test/1234"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "a0d62573-6fa6-4a91-856b-af68555a9923",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ab53040b-e1f8-4f1b-8d11-cbd690914758",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "cfb73329-54c0-4e4e-8a6a-cc7df04057ae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
