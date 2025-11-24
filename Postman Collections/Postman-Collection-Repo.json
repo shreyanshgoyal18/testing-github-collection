@@ -277,6 +277,19 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "jkkk",
+			"id": "485fec83-02cd-45ba-96d5-956d61a76c89",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:1337/integration/59539"
+			},
+			"response": []
 		}
 	]
 }
