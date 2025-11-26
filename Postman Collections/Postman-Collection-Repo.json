@@ -290,6 +290,19 @@
 				"url": "localhost:1337/integration/59539"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "c21a8cee-e62f-43a4-af3e-ce37c006c9da",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "dmndkdnkjnjknkdsmnkjdnkksc"
+			},
+			"response": []
 		}
 	]
 }
