@@ -303,6 +303,18 @@
 				"url": "dmndkdnkjnjknkdsmnkjdnkksc"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "267ef0de-c7e4-4d73-8aef-51849f12a53f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
