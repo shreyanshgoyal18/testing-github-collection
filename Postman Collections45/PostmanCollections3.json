@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "1390e59a-3958-40b0-8700-9edeaf492f82",
-		"name": "Legacy Github Backup Collection testing MIGration",
+		"_postman_id": "0f00a96e-cdae-4ade-9f02-752f978f7791",
+		"name": "Integration Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "example",
-			"id": "83d7c959-f1b4-40c5-868c-ded3aba7da7b",
+			"id": "23c42529-8876-44e4-8b12-a8789f4d0d4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
