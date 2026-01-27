@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "1122189-51cf1792-27ad-4727-8560-e80e9a4181ac",
+		"name": "GLC Shrey Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello Request",
+			"id": "1122189-95e9cb4c-9725-4365-8844-cc662b0172a8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "1122189-8b15ceaf-dc1f-4da1-88e3-1e6210920cca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
