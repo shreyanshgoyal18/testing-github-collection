@@ -1,0 +1,238 @@
+{
+  "info": {
+    "_postman_id": "de78897c-b9f5-4a55-8812-30005c82abd2",
+    "name": "Reporting Final Testing 23 sep 2026",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "200 OK",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "id": "b771571a-528b-41e0-8f77-91fd5ad552d5"
+          }
+        }
+      ],
+      "id": "cf7b3d9d-42e1-453c-824f-c357538cfe5a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/200",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "200"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "301 Moved Permanently",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 301\", function () {",
+              "    pm.response.to.have.status(301);",
+              "});"
+            ],
+            "id": "730c4cce-94cf-4619-8fe9-df38a9b57e59"
+          }
+        }
+      ],
+      "id": "09fb676c-4a61-48a1-9052-1f268f6f3241",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/301",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "301"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "400 Bad Request",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 400\", function () {",
+              "    pm.response.to.have.status(400);",
+              "});"
+            ],
+            "id": "df466953-4332-49dc-8c71-acbd9dd702b9"
+          }
+        }
+      ],
+      "id": "458e70df-d142-4d2b-ab76-88070f355212",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/400",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "400"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "500 Internal Server Error",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 500\", function () {",
+              "    pm.response.to.have.status(500);",
+              "});"
+            ],
+            "id": "afe19d4d-11b5-47db-bc12-44b8960a8768"
+          }
+        }
+      ],
+      "id": "8b18e8f5-9469-4374-b840-7075e396b0f3",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/status/500",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "status",
+            "500"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "mkkw",
+      "id": "9aa46d80-75ea-4901-8aca-978d9abed70a",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "www.example.com",
+          "host": [
+            "www",
+            "example",
+            "com"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "",
+          "// Read current counts from collection variables (default to 0 if not set)",
+          "let successRequestCount = parseInt(pm.collectionVariables.get(\"successRequestCount\")) || 0;",
+          "let redirectRequestCount = parseInt(pm.collectionVariables.get(\"redirectRequestCount\")) || 0;",
+          "let errorRequestCount = parseInt(pm.collectionVariables.get(\"errorRequestCount\")) || 0;",
+          "",
+          "const statusCode = pm.response.code;",
+          "",
+          "// Increment the appropriate counter based on response status code range",
+          "if (statusCode >= 200 && statusCode < 300) {",
+          "    successRequestCount++;",
+          "} else if (statusCode >= 300 && statusCode < 400) {",
+          "    redirectRequestCount++;",
+          "} else if (statusCode >= 400 && statusCode < 600) {",
+          "    errorRequestCount++;",
+          "}",
+          "",
+          "// Set the updated values back into collection variables",
+          "pm.collectionVariables.set(\"successRequestCount\", successRequestCount);",
+          "pm.collectionVariables.set(\"redirectRequestCount\", redirectRequestCount);",
+          "pm.collectionVariables.set(\"errorRequestCount\", errorRequestCount);",
+          "",
+          "// Log current counts via pm.test so they appear in the test results panel",
+          "pm.test(`Success (2xx) count: ${successRequestCount}`, function () {",
+          "    pm.expect(successRequestCount).to.be.a(\"number\");",
+          "});",
+          "",
+          "pm.test(`Redirect (3xx) count: ${redirectRequestCount}`, function () {",
+          "    pm.expect(redirectRequestCount).to.be.a(\"number\");",
+          "});",
+          "",
+          "pm.test(`Error (4xx/5xx) count: ${errorRequestCount}`, function () {",
+          "    pm.expect(errorRequestCount).to.be.a(\"number\");",
+          "});",
+          ""
+        ],
+        "id": "c2ebb75e-d451-4c4c-86d1-20ab5611afa5"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "errorRequestCount",
+      "value": ""
+    },
+    {
+      "key": "successRequestCount",
+      "value": ""
+    },
+    {
+      "key": "redirectRequestCount",
+      "value": ""
+    }
+  ]
+}
