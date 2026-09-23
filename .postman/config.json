@@ -1,16 +1,13 @@
 {
   "workspace": {
-    "id": "96ab4a6c-f6f6-4407-b12b-3252d9160920"
+    "id": "fad2f14a-4367-4cbc-8c8f-28c7fd4be3d9"
   },
   "entities": {
     "collections": [
-      "../postman/collections/Sample SDK Demo_10000000000018-68829e4b-93b0-433e-9db4-19d518ffec8f.postman_collection.json",
-      "../postman/collections/Spec SDK_10000000000018-9f7d4047-16ce-45e3-9d3b-eaab9aec85fe.postman_collection.json",
-      "../postman/collections/PPC Collection_10000000000018-c3dc9368-8dac-49c0-add4-936372be3603.postman_collection.json"
+      "../postman/collections/New Collection_10000000000075-3be3b369-dd1d-4a03-990c-7cd60cc84ab4.postman_collection.json",
+      "../postman/collections/Reporting Final Testing 23 sep 2026_10000000000075-de78897c-b9f5-4a55-8812-30005c82abd2.postman_collection.json"
     ],
-    "environments": [
-      "../postman/environments/PPC Collection Classical_10000000000018-d0f3b445-476a-4237-9226-ffd49ff5e49b.postman_environment.json"
-    ],
+    "environments": [],
     "specs": [],
     "flows": [],
     "globals": []
